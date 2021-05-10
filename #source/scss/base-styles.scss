@@ -1,0 +1,35 @@
+@import "media_mixin";
+
+$font: "Georgia";
+$main-bg-color: #313131;
+$primary-color: #a7c353;
+$title-color: #666666;
+$text-color: #868686;
+$hr-line-color: #e2e2e2;
+
+.container {
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.title {
+	font-family: $font;
+	font-weight: 500;
+	color: $title-color;
+}
+
+p,
+.text {
+	font-family: $font;
+	font-weight: 400;
+	color: $text-color;
+}
+a:active {
+	color: red;
+}
